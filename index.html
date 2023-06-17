@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body onload="DefaultScreen()">
+    <div class="cardContainer">
+    <div class="backgroundCard">
+    <div id="all-data">
+    <center>
+        <h1 class="forecast-days">WeatherU</h1>
+        <p class="inputContainer">Kota: <input type="text" id="cityInput"></p>
+        <button type="button" onclick="GetInfo()">Get Weather</button>        
+        <h2 id="cityName"></h2>
+        <div id="weatherInfo"></div>
+    </center>
+    <div class = "weatherContainer">
+        <div class="iconsContainer">    
+            <div class = "icons">
+                <p class="weather" id="day1"></p>
+                <!--<div class="image"><img src="dots.png" class="imgClass" id="img1"></div>-->
+                <p class="temp" id="day1Min">-</p>
+                <p class="temp" id="day1Max">-</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day2"></p>
+                <!--<div class="image"><img src="dots.png" class="imgClass" id="img2"></div>-->
+                <p class="temp" id="day2Min">-</p>
+                <p class="temp" id="day2Max">-</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day3"></p>
+                <!--<div class="image"><img src="dots.png" class="imgClass" id="img3"></div>-->
+                <p class="temp" id="day3Min">-</p>
+                <p class="temp" id="day3Max">-</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day4"></p>
+                <!--<div class="image"><img src="dots.png" class="imgClass" id="img4"></div>-->
+                <p class="temp" id="day4Min">-</p>
+                <p class="temp" id="day4Max">-</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day5"></p>
+                <!--<div class="image"><img src="dots.png" class="imgClass" id="img5"></div>-->
+                <p class="temp" id="day5Min">-</p>
+                <p class="temp" id="day5Max">-</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+        <script src="main.js"></script>
+
+<!--test-->
+</body>
+</html>
